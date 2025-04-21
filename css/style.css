@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+ul,li{
+    list-style-type: none;
+}
+.nav-link{
+    font-size: 30px;
+    font-weight: 700;
+    color: darkblue !important;
+    text-transform: uppercase;
+    padding: 0 30px !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
