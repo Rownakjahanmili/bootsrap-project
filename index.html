@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>making a menu with bootstrap</title>
+    <title>Furniro project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-info">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/furnio.png" alt="furniopng">
+        <img src="images/logo.png" alt="furniopng">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,28 +24,77 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">about</a>
+            <a class="nav-link" href="#">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">services</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">blog</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">contact</a>
-          </li>
-
-
         </ul>
-        
+        <div class="icons">
+          <i class="fa-solid fa-user"></i>  
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
       </div>
     </div>
   </nav>
 
+  <section id="bannerpart">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ms-auto">
+          <div class="bannercard">
+            <h4>New Arrival</h4>
+            <h1>Discover Our New Collection</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            <a>Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="browsetherange">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-6 m-auto">
+       <div class="range text-center">
+        <h3>Browse The Range</h3>
+        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+       </div>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="rangeitem">
+        <img src="images/pic1.png" alt="dining" class="w100 img-fluid">
+        <h3>Dining</h3>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="rangeitem">
+        <img src="images/pic2.png" alt="livingroom"class="w100 img-fluid" >
+        <h3>Living</h3>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="rangeitem">
+        <img src="images/pic3.png" alt="bedroom" class="w100 img-fluid" >
+        <h3>Bedroom</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+  </section>
 
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

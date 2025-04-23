@@ -2,21 +2,95 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: "Poppins", sans-serif; 
 }
-a{
+a,a:hover{
     text-decoration: none;
     display:inline-block;
 }
-ul,li{
+ul,ol{
     list-style-type: none;
 }
-.nav-link{
-    font-size: 30px;
-    font-weight: 700;
-    color: darkblue !important;
-    text-transform: uppercase;
-    padding: 0 30px !important;
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
 }
-.nav-link:hover{
+.icons i{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0 27px !important;
+}
+.nav-link:hover{ 
+    color: #B88E2F;
+}
+#bannerpart{
+    padding-top: 155px;
+    padding-bottom: 115px;
+    background: url(../images/mask.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannercard{
+    background:#FFF3E3;
+    padding: 65px 65px 40px 40px;
+}
+.bannercard h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+
+}
+.bannercard h1{
+    color: #B88E2F;
+    font-size: 52px;
+    font-weight: 700;
+    width: 399px;
+    line-height: 65px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.bannercard p{
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+color: #333333;
+
+}
+.bannercard a{
+    margin-top: 50px;
+    padding: 30px 65px;
+    background: #B88E2F;
     color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#browsetherange{
+    padding: 65px 0;
+}
+.range h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.range p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 10px;
+    padding-bottom: 65px;
+}
+.rangeitem h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 35px;
 }
