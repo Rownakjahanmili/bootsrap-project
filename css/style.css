@@ -94,3 +94,122 @@ color: #333333;
     color: #333333;
     padding-top: 35px;
 }
+#productpart{
+    padding: 50px 0;
+}
+.producttitle{
+    text-align: center;
+    align-items: center;
+}
+.producttitle h3{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.productimg{
+    position: relative;
+}
+.badge{
+    height: 50px;
+    width: 50px;
+    background:#e97171;
+    position: absolute;
+    top: 20px;
+    right:20px ;
+    border-radius: 50%;
+}
+.badge p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.productitem{
+    position: relative;
+}
+.productovrly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: lch(0% 0 0 / 0.288);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.productovrly a{
+    padding: 15px 60px;
+    background: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 210px;
+   
+}
+.icon{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%);
+}
+.icon ul li{
+    display: inline-block;
+}
+.productitemn:hover .productovrly{
+    opacity: 1;
+    visibility: visible;
+
+}
+.producttext{
+    background: #f4f5f7;
+    padding: 15px 15px 25px 15px;
+}
+.producttext h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+.producttext h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #898989;
+    padding : 15px 0;
+
+}
+.producttext p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.producttext del{
+    font-size: 16px;
+    font-weight: 600;
+    color: #898989;
+}
+.badgeo{
+    height: 50px;
+    width: 50px;
+    background:#2EC1AC;
+    position: absolute;
+    top: 20px;
+    right:20px ;
+    border-radius: 50%;
+}
+.badgeo p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.showbtn a{
+    padding: 15px 5px;
+    background: transparent;
+    border: 1px solid #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+}
